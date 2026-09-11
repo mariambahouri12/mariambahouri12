@@ -37,7 +37,7 @@ A real-time network anomaly detection system designed to detect DDoS attacks fro
 
 * Developed a real-time pipeline processing **100K–500K packets/s**, based on a three-level architecture: **packet → flow → time window**.
 * Designed **11 dilution-robust features** and trained an **Autoencoder** for network anomaly detection using aggregated statistics over sliding windows.
-* Achieved **99% anomaly detection** when anomalies represented at least **10% of traffic flows**. f
+* Achieved **99% anomaly detection** when anomalies represented at least **10% of traffic flows**.
 
 [View on GitHub](https://github.com/eya2105/FedGuard)
 
