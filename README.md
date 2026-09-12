@@ -51,7 +51,7 @@ A low-code platform for automated analysis and preprocessing of tabular datasets
 * Designed a **contextual hybrid ML + RAG architecture** combining intelligent query routing, shared/private Redis semantic caching, and Qdrant search.
 * Generates personalized recommendations based on the **specific characteristics of the user's dataset**. 
 
-[View on GitHub](https://github.com/mariambahouri12/DataKit)
+[View on GitHub](https://github.com/mariambahouri12/data-kit)
 
 ---
 
