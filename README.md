@@ -53,6 +53,18 @@ A low-code platform for automated analysis and preprocessing of tabular datasets
 
 [View on GitHub](https://github.com/mariambahouri12/data-kit)
 
+### 🗂️ Extraction Tool for RAG Pipelines — Heterogeneous Document Ingestion Engine
+
+A clean-architecture extraction and preprocessing engine designed as the ingestion layer of a RAG pipeline.
+
+* Built a **multi-format ingestion pipeline** supporting **PDF, HTML, DOCX, EML, Markdown, TXT, CSV and images**, with MIME-based type detection cross-checked between `libmagic` and `mimetypes`.
+* Designed a **registry-pattern routing layer** mapping detected types to dedicated extractors, with explicit handling of unknown or unsupported formats.
+* Implemented **layout-aware PDF extraction** (heuristic + optional ML via LayoutParser) with native text, table extraction (Markdown / JSON / CSV), and **OCR fallback** using Tesseract with deskew, denoise, binarize and upscaling preprocessing.
+* Added **two-level deduplication** — exact via SHA-256 over raw bytes and near-duplicate via **MinHash + LSH** on extracted text — plus **incremental reprocessing** through a persistent fingerprint store.
+* Normalized every source into a **common retrieval-ready schema** (`NormalizedChunk`) with common and source-specific metadata, provenance (page, bbox, extraction method, confidence), and structured JSON logging with in-process metrics.
+
+[View on GitHub](https://github.com/mariambahouri12/extraction-tool)
+
 ---
 
 ## 🧠 Areas of Interest
@@ -131,4 +143,3 @@ I'm always open to connecting with people interested in **AI, Data Science, LLMs
 ---
 
 > **Stay curious. Keep learning. Take on the next challenge.**
-
