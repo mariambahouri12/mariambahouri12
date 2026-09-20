@@ -32,6 +32,18 @@ An adaptive AI investigation system designed to answer complex questions across 
 
 [View on GitHub](https://github.com/mariambahouri12/InsightTree)
 
+### 🔍 PaperLens — Structure-Aware RAG with Image & Table Retrieval
+
+A **production-quality RAG system** for querying scientific papers while preserving their document structure, figures, and tables.
+
+* Built a **structure-aware PDF ingestion pipeline** extracting sections, figures, tables, captions, reading order, and bounding boxes.
+* Implemented **hierarchical section-aware chunking** and hybrid retrieval combining **dense embeddings, BM25, and Reciprocal Rank Fusion (RRF)**.
+* Designed **first-class image and table handling**, preserving image references and structured table content throughout retrieval and enabling retrieval of relevant figures alongside generated answers.
+* Built the system with **Clean Architecture and Ports & Adapters**, isolating PDF extraction, embeddings, vector storage, BM25, image storage, and local LLM components behind replaceable interfaces.
+* Integrated **Qwen3 8B via Ollama** for fully local, open-source question answering with structured JSON logging and unit/integration testing.
+
+[View on GitHub](https://github.com/mariambahouri12/PaperLens)
+
 ### 🔎 CareerPlus — Agentic Company Intelligence & Spontaneous Application Platform
 
 An **Agentic AI + RAG platform** for discovering relevant companies and preparing personalized spontaneous applications.
@@ -142,4 +154,5 @@ I'm always open to connecting with people interested in **AI, Data Science, LLMs
 ---
 
 > **Stay curious. Keep learning. Take on the next challenge.**
+
 
