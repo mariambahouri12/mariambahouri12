@@ -32,14 +32,15 @@ An adaptive AI investigation system designed to answer complex questions across 
 
 [View on GitHub](https://github.com/mariambahouri12/InsightTree)
 
-### 🔎 CareerPulse — AI-Powered Job Market Intelligence Platform
+### 🔎 CareerPlus — Agentic Company Intelligence & Spontaneous Application Platform
 
-An AI platform combining job-market data collection, information retrieval, CV–job matching, and automated application workflows.
+An **Agentic AI + RAG platform** for discovering relevant companies and preparing personalized spontaneous applications.
 
-* Built a hybrid IR engine combining **FAISS, BM25, RRF and Cross-Encoder reranking**, achieving **92.9% P@5, 92.9% R@5, 92.9% MRR and 92.8% nDCG@5** on an offline manually annotated query set.
-* Developed an **AI agent with LangGraph and tool calling** to route requests across job search, job-related questions, spontaneous applications, application/email verification, and CV updates.
-* Implemented automated **application tracking, status management, change detection, and user notifications**.
-
+* Built a **local Qwen3 8B ReAct agent with tool calling** that dynamically selects between structured database queries, semantic retrieval, LinkedIn intelligence, project retrieval, CV selection, and application workflows.
+* Implemented **hybrid company retrieval** combining `BAAI/bge-m3`, FAISS, BM25, RRF (`k=60`), and `BAAI/bge-reranker-v2-m3` for semantic company discovery, while deterministic constraints are handled directly through **Supabase/PostgreSQL**.
+* Designed a **project-aware application workflow** that retrieves relevant projects, selects an existing CV version, and generates grounded company-specific application emails without inventing company, project, skill, or achievement information.
+* Integrated **LinkedIn scraping with Playwright**, Gmail API email sending with **explicit user confirmation**, and **Supabase application tracking** for sent applications and metadata.
+* Structured the system using **Clean Architecture**, separating domain entities and use cases from retrieval, storage, LLM, scraping, and email infrastructure.
 
 [View on GitHub](https://github.com/mariambahouri12/CareerPlus)
 
@@ -53,18 +54,15 @@ A real-time network anomaly detection system designed to detect DDoS attacks fro
 
 [View on GitHub](https://github.com/eya2105/FedGuard)
 
-
-
 ### 🧪 DataKit — Contextual ML & RAG Platform for Automated Data Preparation
 
 A low-code platform for automated analysis and preprocessing of tabular datasets.
 
 * Developed automated **data-quality analysis and preprocessing**, including cleaning, encoding, balancing, and feature engineering.
 * Designed a **contextual hybrid ML + RAG architecture** combining intelligent query routing, shared/private Redis semantic caching, and Qdrant search.
-* Generates personalized recommendations based on the **specific characteristics of the user's dataset**. 
+* Generates personalized recommendations based on the **specific characteristics of the user's dataset**.
 
 [View on GitHub](https://github.com/mariambahouri12/data-kit)
-
 
 ---
 
@@ -144,3 +142,4 @@ I'm always open to connecting with people interested in **AI, Data Science, LLMs
 ---
 
 > **Stay curious. Keep learning. Take on the next challenge.**
+
