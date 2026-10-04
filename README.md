@@ -11,7 +11,7 @@ I enjoy building systems where technology is not just used to solve a problem on
 ## 🚀 Featured Projects
 
 
-### 🔍 PaperLens — Structure-Aware RAG with Image & Table Retrieval
+### 🔍 PaperLens — RAG For Research Papers
 
 A **production-quality RAG system** for querying scientific papers while preserving their document structure, figures, and tables.
 
