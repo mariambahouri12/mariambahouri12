@@ -154,7 +154,8 @@ For me, every project is an opportunity to **learn, experiment, improve, and dis
 
 I'm always open to connecting with people interested in **AI, Data Science, LLMs, RAG, intelligent systems, and emerging technologies**.
 
-**LinkedIn:** [Meriam Bahouri](www.linkedin.com/in/meriam-bahouri-ba6168264)
+**LinkedIn:** www.linkedin.com/in/meriam-bahouri-ba6168264
+**Mail:** meriam.bahouri@insat.ucar.tn
 
 ---
 
